@@ -120,3 +120,47 @@ var numero = prompt("Ingrese un numero: ");
 var resultado = numero >= 0 ? "positivo" : "negativo";
 console.log("El número es " + resultado);
 */
+
+//11. Condicional if-else: Pide al usuario su edad y determina si es mayor o menor de edad.
+
+/*
+var edad = prompt("Por favor, ingresa tu edad:");
+edad = parseInt(edad);
+
+if (edad >= 18) {
+  alert("Podes INGRESA sos mayor de edad.");
+} else {
+  alert("NO puedes INGRESAR sos menor de edad.");
+}
+*/
+
+//12. Condicional switch: Pide al usuario un número del 1 al 7 y muestra el día de la semana correspondiente.
+
+var numero = prompt("Por favor, ingresa un número del 1 al 7:");
+
+numero = parseInt(numero);
+switch (numero) {
+  case 1:
+    alert("El número " + numero + " corresponde al día Domingo.");
+    break;
+  case 2:
+    alert("El número " + numero + " corresponde al día Lunes.");
+    break;
+  case 3:
+    alert("El número " + numero + " corresponde al día Martes.");
+    break;
+  case 4:
+    alert("El número " + numero + " corresponde al día Miércoles.");
+    break;
+  case 5:
+    alert("El número " + numero + " corresponde al día Jueves.");
+    break;
+  case 6:
+    alert("El número " + numero + " corresponde al día Viernes.");
+    break;
+  case 7:
+    alert("El número " + numero + " corresponde al día Sábado.");
+    break;
+  default:
+    alert("El número ingresado no está dentro del rango del 1 al 7.");
+}
