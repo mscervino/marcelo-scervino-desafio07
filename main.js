@@ -87,3 +87,36 @@ radio = parseFloat(radio);
 var area = Math.PI * Math.pow(radio, 2);
 alert("El área del círculo con radio " + radio + " es: " + area);
 */
+
+//8. Conversión de Unidades: Pide al usuario una temperatura en grados Celsius y conviértela a Fahrenheit.
+
+/*
+var celsius = prompt("Por favor, ingresa la temperatura en grados Celsius:");
+celsius = parseFloat(celsius);
+var fahrenheit = (celsius * 9) / 5 + 32;
+alert("La temperatura en Fahrenheit es: " + fahrenheit);
+*/
+
+//9. Cálculo de Promedio: Pide al usuario tres números y calcula su promedio.
+
+/*
+var numero1 = prompt("Por favor, ingresa la nota examen matematica:");
+var numero2 = prompt("Por favor, ingresa la nota examen fisica:");
+var numero3 = prompt("Por favor, ingresa la nota examen computación:");
+
+numero1 = parseFloat(numero1);
+numero2 = parseFloat(numero2);
+numero3 = parseFloat(numero3);
+
+var promedio = (numero1 + numero2 + numero3) / 3;
+
+alert("El promedio de tus examenes es: " + promedio);
+*/
+
+//10. Operador Ternario: Utiliza el operador ternario para determinar si un número es positivo o negativo.
+
+/*
+var numero = prompt("Ingrese un numero: ");
+var resultado = numero >= 0 ? "positivo" : "negativo";
+console.log("El número es " + resultado);
+*/
